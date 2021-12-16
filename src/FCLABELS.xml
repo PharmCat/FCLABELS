@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ***************************************************************** -->
+<Command Name="FCLABELS"
+	xmlns="http://xml.spss.com/spss/extension"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://xml.spss.com/spss/extension http://xml.spss.com/spss/extension/extension-1.0.xsd" LanguageVersion="3">
+	<Subcommand Name="" IsArbitrary="False" Occurrence="Optional">
+		<Parameter Name="FILE" ParameterType="InputFile"/>
+		<Parameter Name="ID" ParameterType="QuotedString"/>
+		<Parameter Name="LABELS" ParameterType="QuotedString"/>
+	</Subcommand>
+</Command>
